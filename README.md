@@ -29,9 +29,7 @@ python manage.py runserver
 ```
 
 ## TEST CASES
-```bash
-echo "==============="
-```
+===============
 # create employee
 ```bash
 curl -X POST http://127.0.0.1:8000/api/create_employee/ -H "Content-Type: application/json" -d '{"name": "John Doe", "email": "john.doe@example.com", "age": 30, "gender": "male", "phoneNo": "", "addressDetails": {"hno": "123", "street": "Main St", "city": "City", "state": "State"}, "workExperience": [{"companyName": "ABC Corp", "fromDate": "2020-01-01", "toDate": "2022-01-01", "address": "ABC Address"}], "qualifications": [{"qualificationName": "Bachelor'"'"'s", "fromDate": "2010-01-01", "toDate": "2014-01-01", "percentage": 80.0}], "projects": [{"title": "Project X", "description": "Description of Project X"}], "photo": ""}'
